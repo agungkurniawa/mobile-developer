@@ -8,7 +8,7 @@ void main() {
 }
 
 /*untuk mewariskan 2 method sekaligus tidak bisa hanya menggunakan kata class
-karena mixin harus dideklarasikan sebagai mixin, bukan kelas biasa. maka class diganti menjadi mixin*/
+karena mixin harus di deklarasikan sebagai mixin, bukan kelas biasa. maka class diganti menjadi mixin*/
 mixin Mamalia {
   void methodMamalia() {
     print('Method Mamalia');
